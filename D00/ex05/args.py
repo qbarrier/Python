@@ -4,6 +4,6 @@ if len (sys.argv) < 2 :
 else :
     arguments = sys.argv
     del arguments[0]
-    for index, val in enumerate(arguments) :
-        print ("Argument", index + 1 , "is :", val)
+    for index, val in enumerate(arguments, 1) :
+        print ("Argument", index, "is :", val)
     print("I have", len(arguments), "arguments")
