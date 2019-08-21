@@ -14,14 +14,7 @@ while index < len(texte) :
     else :
         list_Rick.append(index)
         index +=1
-"""
-y = ""
-for x in list_Rick :
-    if y == "" :
-        y = json.dumps(x)
-    else :
-        y = y + json.dumps(x)
-"""
+
 list_Rick.reverse()
 
 index = 0
