@@ -5,8 +5,7 @@ def req_users() :
     res = str("")
     for  name in json_obj :
         res +=  name['name'] + "\n"
-    return (res)
+    print(res, end = '')
 
 if __name__ == '__main__':
-    res = req_users()
-    print(res, end = '')
+    req_users()

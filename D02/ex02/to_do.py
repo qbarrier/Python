@@ -41,4 +41,4 @@ def req_users() :
     print("Glenna Reichert =" , dict_todo[dict_users["Glenna Reichert"]], "todo uncompleted")
 
 if __name__ == '__main__':
-    res = req_users()
+    req_users()
