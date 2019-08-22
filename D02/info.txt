@@ -1,1 +1,8 @@
+oubli de fonction import sys pour l'ex00 ?
+
+Lien http pas cliquable
+
 Coquille dans le ex02 "Gleina" au lieu de "Glenna"
+
+ex05 il y a 151 premiers pokemons !
+ex05 ne doit on pas utiliser import json pour creer un fichier json ?
